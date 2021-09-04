@@ -55,11 +55,12 @@ extension Demo {
     @IBAction func SendNav (_ sender :UIButton) -> Void {
     
         let mainStoryboard = UIStoryboard(name: "demo2", bundle: Bundle.main)
+
         guard let vc = mainStoryboard.instantiateViewController(withIdentifier: "Demo2") as? Demo2 else {
             print("err")
             return
         }
-        //self.navigationController?.pushViewController(vc, animated: true)
+
         self.present(vc, animated: true, completion: nil);
 
     }

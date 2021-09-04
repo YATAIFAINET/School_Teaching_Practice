@@ -18,9 +18,20 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="Rj2-pI-ENU">
+                    <rect key="frame" x="106" y="293" width="202" height="336"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                    <state key="normal" title="切換"/>
+                    <connections>
+                        <action selector="Send:" destination="-1" eventType="touchUpInside" id="fGp-ik-Gbv"/>
+                    </connections>
+                </button>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemTealColor"/>
-            <point key="canvasLocation" x="3" y="79"/>
+            <point key="canvasLocation" x="2.8985507246376816" y="78.348214285714278"/>
         </view>
     </objects>
     <resources>

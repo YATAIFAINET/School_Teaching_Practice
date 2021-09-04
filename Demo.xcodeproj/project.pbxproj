@@ -27,6 +27,10 @@
 		C5A46E822680B745007505C5 /* Demo_Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A46E812680B745007505C5 /* Demo_Action.swift */; };
 		C5A802E426E306D300181118 /* xib.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A802E326E306D300181118 /* xib.swift */; };
 		C5A802E626E306DB00181118 /* xib.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5A802E526E306DB00181118 /* xib.xib */; };
+		C5A802E926E30C3600181118 /* demo3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A802E826E30C3600181118 /* demo3.swift */; };
+		C5A802EB26E30C7D00181118 /* Demo3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5A802EA26E30C7D00181118 /* Demo3.storyboard */; };
+		C5A802ED26E30FCE00181118 /* xibdemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A802EC26E30FCE00181118 /* xibdemo.swift */; };
+		C5A802EF26E30FE000181118 /* xibdemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5A802EE26E30FE000181118 /* xibdemo.xib */; };
 		C5E1C8D625C45AB700163EE7 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E1C8D525C45AB700163EE7 /* Customer.swift */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +74,10 @@
 		C5A46E812680B745007505C5 /* Demo_Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_Action.swift; sourceTree = "<group>"; };
 		C5A802E326E306D300181118 /* xib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xib.swift; sourceTree = "<group>"; };
 		C5A802E526E306DB00181118 /* xib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = xib.xib; sourceTree = "<group>"; };
+		C5A802E826E30C3600181118 /* demo3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo3.swift; sourceTree = "<group>"; };
+		C5A802EA26E30C7D00181118 /* Demo3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Demo3.storyboard; sourceTree = "<group>"; };
+		C5A802EC26E30FCE00181118 /* xibdemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xibdemo.swift; sourceTree = "<group>"; };
+		C5A802EE26E30FE000181118 /* xibdemo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = xibdemo.xib; sourceTree = "<group>"; };
 		C5E1C8D525C45AB700163EE7 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +129,7 @@
 		1FCF6A0A25C3BAF4006B33DD /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				C5A802E726E30C2B00181118 /* Dmoe3 */,
 				C5A802E226E306C600181118 /* xib */,
 				C59AC7FD26E0A39000DEF0AE /* Demo2 */,
 				C5E1C8D325C45A8B00163EE7 /* Public */,
@@ -180,9 +189,20 @@
 			isa = PBXGroup;
 			children = (
 				C5A802E326E306D300181118 /* xib.swift */,
+				C5A802EE26E30FE000181118 /* xibdemo.xib */,
 				C5A802E526E306DB00181118 /* xib.xib */,
+				C5A802EC26E30FCE00181118 /* xibdemo.swift */,
 			);
 			path = xib;
+			sourceTree = "<group>";
+		};
+		C5A802E726E30C2B00181118 /* Dmoe3 */ = {
+			isa = PBXGroup;
+			children = (
+				C5A802E826E30C3600181118 /* demo3.swift */,
+				C5A802EA26E30C7D00181118 /* Demo3.storyboard */,
+			);
+			path = Dmoe3;
 			sourceTree = "<group>";
 		};
 		C5E1C8C825C451F800163EE7 /* Main */ = {
@@ -343,10 +363,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FCF6A1825C3BAF6006B33DD /* LaunchScreen.storyboard in Resources */,
+				C5A802EF26E30FE000181118 /* xibdemo.xib in Resources */,
 				C5A802E626E306DB00181118 /* xib.xib in Resources */,
 				1FCF6A1525C3BAF6006B33DD /* Assets.xcassets in Resources */,
 				C59AC80126E0A3B600DEF0AE /* demo2.storyboard in Resources */,
 				1FCF6A1325C3BAF4006B33DD /* Main.storyboard in Resources */,
+				C5A802EB26E30C7D00181118 /* Demo3.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,8 +403,10 @@
 				C59AC7FF26E0A39A00DEF0AE /* Demo2.swift in Sources */,
 				C5A46E822680B745007505C5 /* Demo_Action.swift in Sources */,
 				C5A802E426E306D300181118 /* xib.swift in Sources */,
+				C5A802ED26E30FCE00181118 /* xibdemo.swift in Sources */,
 				C59AC80726E0B95400DEF0AE /* rootviewcontroller.swift in Sources */,
 				C5E1C8D625C45AB700163EE7 /* Customer.swift in Sources */,
+				C5A802E926E30C3600181118 /* demo3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

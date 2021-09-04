@@ -41,8 +41,9 @@ extension Demo2 {
 
 extension Demo2 {
     @IBAction func Send (_ sender :UIButton) -> Void {
-        let vc:UIViewController = xib.init()
 
+        let vc:xib = xib.init()
+        vc.Send = "123"
         self.present(vc, animated: true, completion: nil)
     }
 }
