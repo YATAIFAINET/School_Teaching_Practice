@@ -53,7 +53,8 @@ extension Demo {
 
 extension Demo {
     @IBAction func SendNav (_ sender :UIButton) -> Void {
-    
+
+        /*
         let mainStoryboard = UIStoryboard(name: "demo2", bundle: Bundle.main)
 
         guard let vc = mainStoryboard.instantiateViewController(withIdentifier: "Demo2") as? Demo2 else {
@@ -62,6 +63,11 @@ extension Demo {
         }
 
         self.present(vc, animated: true, completion: nil);
+         */
+
+        let vc:xib = xib.init()
+        vc.Send = "123"
+        self.present(vc, animated: true, completion: nil)
 
     }
 }
